@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap'); */
+
 
 * {
     margin: 0;
@@ -7,7 +7,10 @@
 }
 
 
-
+h1{
+    font-family: 'Poppins';
+    font-weight: bolder;
+}
 li {
     list-style: none;
 }
@@ -29,11 +32,11 @@ li {
     position: -webkit-sticky;
     top: 0;
     background-color: white;
-
     z-index: 1;
 }
 
 a {
+  
     text-decoration: none;
     color: #fff;
     
@@ -68,6 +71,7 @@ a {
 }
 
 .nav-item {
+ 
     margin-left: 1rem;
 }
 
