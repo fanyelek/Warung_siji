@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap'); */
 
 * {
     margin: 0;
@@ -14,6 +14,7 @@ li {
 
 a {
     text-decoration: none;
+    color: #fff;
     
 }
 
@@ -56,7 +57,7 @@ a {
 }
 
 .nav-link:hover{
-    color: saddlebrown;
+    color: silver;
 }
 
 
@@ -64,7 +65,7 @@ a {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 5rem;
+        top: 6rem; 
         flex-direction: column;
         background-color: #fff;
         width: 100%;
@@ -80,12 +81,13 @@ a {
     }
 
     .nav-item {
-        margin: 2.5rem 0;
+        margin: 1rem;
     }
 
     .hamburger {
         display: block;
         cursor: pointer;
+       
     }
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
@@ -94,7 +96,7 @@ a {
     .hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
-
+  
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
