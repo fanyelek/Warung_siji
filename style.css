@@ -53,11 +53,21 @@ a {
     font-size: 20px;
     font-family: 'Poppins';
     font-weight: bolder;
-    color: #475569;
+    color: #474747;
+}
+
+.nav-link-btn{
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    color: white;
 }
 
 .nav-link:hover{
     color: silver;
+}
+.nav-link-btn:hover{
+    color: #474747;
 }
 
 
