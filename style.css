@@ -20,6 +20,18 @@ li {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.header{
+    width: 100%;
+    margin: auto;
+    display: flex; /* Biar bisa membuat kolomkolom di menunya*/
+    line-height: 10px; /* Biar bisa rata dibagian tengah div*/
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: white;
+
+    z-index: 1;
+}
 
 a {
     text-decoration: none;
@@ -28,6 +40,7 @@ a {
 }
 
 .navbar {
+    width: 100%;
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
